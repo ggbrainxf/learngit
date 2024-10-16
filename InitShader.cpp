@@ -17,7 +17,7 @@ readShaderSource(const char* shaderFile)
 
     if ( fp == NULL ) { return NULL; }
 
-    fseek(fp, 0L, SEEK_END);
+   // fseek(fp, 0L, SEEK_END);
     long size = ftell(fp);
 
     fseek(fp, 0L, SEEK_SET);
