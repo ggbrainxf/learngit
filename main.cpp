@@ -191,16 +191,16 @@ void key_callback(GLFWwindow* window, int key, int scancode, int action, int mod
 {
 	switch (key)
 	{	
-		// 退出。
+		// 退出。	
 		case GLFW_KEY_ESCAPE:
 			if(action==GLFW_PRESS) glfwSetWindowShouldClose(window, GL_TRUE);
 			break;
 		// 1：缩放。
-		case GLFW_KEY_1:
+		case GLFW_KEY_2:
 			if(action==GLFW_PRESS) currentTransform = TRANSFORM_SCALE;
 			break;
 		// 2: 旋转。
-		case GLFW_KEY_2:
+		case GLFW_KEY_1:
 			if(action==GLFW_PRESS) currentTransform = TRANSFORM_ROTATE;
 			break;
 		// 3: 移动。
