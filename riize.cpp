@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
 int main() {
-        cout<<"RIIZE 6";
+        cout<<"RIIZE is 6";
         return 0;
 }
