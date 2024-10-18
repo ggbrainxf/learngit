@@ -1,5 +1,5 @@
 #include <iostream>
 int main(int argc, const char * argv[]) {
-        std::cout << "Hello, New World!\n";
+        std::cout << "Hello, The New World!\n";
         return 0;
 }
